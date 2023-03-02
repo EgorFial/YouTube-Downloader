@@ -1,0 +1,143 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d9d9d90f;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.center-pozition{
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.main-title{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size:50px;
+    line-height: 27px;
+    color: #524f4e;
+
+}*/
+
+
+.link-video{
+    width: 500px;
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #524f4e;
+    line-height: 27px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.319);
+    padding: 3px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+  }
+  .link-video:hover {
+    border: 1px solid #aaa;
+  }
+
+  .Download-button {
+    border-color: #2ee59c00;
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+   
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 27px;
+    color: #524f4e;
+  }
+  .Download-button:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .Download-button:active{
+    transform: translateY(0px);
+  }
+  
+
+
+  h1 {
+    font-size: 50px;
+    font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d9395+40,86c9ca+51,0d9395+64,0d9395+64 */
+  background: #0d9395; /* Old browsers */
+  background: -moz-linear-gradient(left,  #524f4e 40%, #d9d9d90f 51%, #524f4e 64%, #524f4e 64%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #524f4e 40%,#d9d9d90f 51%,#524f4e 64%,#524f4e 64%); /* Chrome10-25,Safari5.1-6 */
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  
+  background-size: 400% 400%;
+
+  -webkit-animation: background-animation 4s ease-in-out infinite;
+  -moz-animation: background-animation 4s ease-in-out infinite;
+  -o-animation: background-animation 4s ease-in-out infinite;
+  animation: background-animation 4s ease-in-out infinite;  
+  
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  
+}
+
+
+
+
+
+
+
+
+
+body{
+  
+  /* 
+    Background From: http://lea.verou.me/css3patterns/#zig-zag
+    Site has loads of cool CSS3 gradient backgrounds, try changing this one in here to a different one from that site :)
+  */
+  background: 
+				linear-gradient(135deg, #3b3b3b0f 25%, transparent 25%) -50px 0,
+				linear-gradient(225deg, #3b3b3b0f 25%, transparent 25%) -50px 0,
+				linear-gradient(315deg, #3b3b3b0f 25%, transparent 25%),
+				linear-gradient(45deg, #3b3b3b0f 25%, transparent 25%);	
+				background-size: 20px 20px;
+				background-color: #d9d9d90f;
+        
+        /* Animation defaults to a .3s loop */
+				-webkit-animation: backgroundAnimate 9s linear infinite;
+  
+}
+
+/* The Animation, switch the -100px to +100px to reverse */
+@-webkit-keyframes backgroundAnimate{
+
+  from{
+    background-position: 50px 0, 50px 0, 0 0, 0 0;
+  }
+  
+  to{
+    background-position: 50px -100px, 50px -100px, 0 -100px, 0 -100px;    
+  }
+  
+}
